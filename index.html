@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Portfolio</title>
+    <link href="./css/index.css" rel="stylesheet">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div class="logo"> 
+            <img  src="./icons/language.png" alt="Icon"/>
+        </div>
+            
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#Work" class="nav__link">Portfolio</a></li>
+            </ul>
+        </nav>
+            
+
+       
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">Hi, I am <span>Nemanja</span></h1>
+        <p class="section__subtitle section__subtitle--intro">front end dev</p>
+    </section>
+
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">About me</h2> 
+        <div class="section__div">
+            <div class="section__skills">
+                <img src="./icons/html.png"  alt="">
+                <img src="./icons/css.png"  alt="">
+                <img src="./icons/js.png"  alt="">
+                <img src="./icons/react.png"  alt="">
+            </div>
+            <div class="section__about">
+                <p>I am Nemanja Pavlovic Front End Developer based in Belgrade,Serbia.</p>
+                <p>I am currently studiying Communication Technologies,driven by curiosity i started to code and fell in love with the craft.
+           I believe  that good teamwork and challenges are the best ways to grow.
+                </p>
+            </div>
+
+        </div>
+        
+
+    </section>
+
+    <!-- My Work -->
+    <section class="my-work" id="Work">
+        <h2 class="section__title section__title--work">My Projects</h2>
+        <p class="section__subtitle section__subtitle--work">Building apps, not just for the sake of learning but also because it's fun!</p>
+        <div class="portfolio">
+            <div class="portfolio__item">
+                 <a href="https://github.com/Iersu/lersu-netflix" target="_blank" class="portfolio__item--link">
+                    <img src="./images/netflix.png" alt="" class="portfolio__img">
+                </a>
+                <a href="https://github.com/Iersu/lersu-netflix" target="_blank" class="portfolio__text--link">
+                    <div class="portfolio__text">
+                    <p>Entertainment</p>
+                    <h3>Netflix Clone</h3>
+                    </div> 
+                </a>
+                
+            </div>
+            <div class="portfolio__item">
+                <a href="https://github.com/Iersu/coffee-shop-finder" target="_blank" class="portfolio__item--link">
+                   <img src="./images/coffee-shop.jpg" alt="" class="portfolio__img">
+               </a>
+               <a href="https://github.com/Iersu/coffee-shop-finder" target="_blank" class="portfolio__text--link">
+                   <div class="portfolio__text">
+                   <p>Business</p>
+                   <h3>Coffee Shop Finder</h3>
+                   </div> 
+               </a>
+               
+           </div>
+              <div class="portfolio__item">
+                 <a href="https://github.com/Iersu/photo-gallery" target="_blank" class="portfolio__item--link">
+                    <img src="./images/photo-gallery.jpg" alt="" class="portfolio__img">
+                </a>
+                <a href="https://github.com/Iersu/photo-gallery" target="_blank" class="portfolio__text--link">
+                    <div class="portfolio__text">
+                    <p>E-Commerce</p>
+                    <h3>Photo Gallery</h3>
+                    </div> 
+                </a>
+                
+            </div>
+        </div>
+    </section>
+    <footer>
+        <a class="footer__link" href = "mailto: nekicom35@gmail.com">nekicom35@gmail.com</a>
+    </footer>
+
+
+
+    
+    <script src="./index.js"></script>
+</body>
+</html>
